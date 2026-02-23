@@ -240,6 +240,10 @@ p,
 }
 
 /* main-section:nth-child(2) */
+.main-section:nth-child(2){
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
 .main-section:nth-child(2) .left {
     width: 68%;
     float: left;
@@ -360,7 +364,7 @@ footer p {
     .main-section:nth-child(3) .carosuel .caro-card {
         width: 100%;
         text-align: center;
-        margin-top: 10rem;
+        margin-top: 5rem;
         margin-left: 0;
     }
 
